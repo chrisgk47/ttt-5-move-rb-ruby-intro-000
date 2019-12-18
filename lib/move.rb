@@ -18,4 +18,6 @@ def update_array_at_with(array, index, value)
 end
 
 def move(board, index, char)
+  board[index] = char
+  return board
 end
